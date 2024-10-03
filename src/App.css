@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+body{
+  background-image: url(../public/Assets/Images/Background\ main.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: rgba(0, 0, 0, 0.384);
+  font-family: "Love Ya Like A Sister", cursive;
+
+}
+.user-view-main{
+  padding: 20px;
+}
+.message-box{
+  background-color: rgba(41, 40, 40, 0.84);
+  color: white;
+}
+.message-box .box-header{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #313131;
+}
+.message-box .box-header .box-left{
+  margin-left: 20px;
+
+}
+.message-box .box-header span{
+  background-color: white;
+  color: black;
+  height: 100%;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 2px 5px;
+  margin-top: 5px;
+}
+.message-box .box-header img{
+  max-width: 400px;
+  margin-top: 5px;
+}
+
+.message-box .box-body{
+  padding: 10px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@media (max-width: 940Px) {
+      
+.message-box .box-header img{
+  width: 100%;
+  margin-top: 5px;
+}
+.message-box .box-header .box-left{
+  margin-top: 30px;
+}
+}
